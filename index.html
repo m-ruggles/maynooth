@@ -4,36 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maynooth Furniture | Welcome</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wte8ouo.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id="branding">
-                <h1>MAYNOOTH<br>FURNITURE<br>CO</h1>
-            </div>
-            <nav>
-                <ul id="left nav">
+        <div id="branding">
+            <a href="./index.html"><img id="logo" src="./Assets/maynoothLogo.png" alt="logo"></a>
+        </div>
+        <nav>
+            <div class="leftNav">
+                <ul>
                     <li><a href ="#">HOME</a></li>
                     <li><a href ="#">LIVING ROOM</a></li>
                     <li><a href ="#">BEDROOM</a></li>
                     <li><a href ="#">KITCHEN AND DINING</a></li>
                 </ul>
-                <ul id="right nav">
+            </div>
+            <div class="rightNav">
+                <ul>
                     <li><a href ="#">ABOUT</a></li>
                     <li><a href ="#">CONTACT US</a></li>
-                    <li><a href ="#"></a></li>
-                    <li><a href ="#"><img src="/Assets/Search.svg" alt="search icon"></a></li>
-                    <li><a href ="#"><img src="/Assets/shopping_cart-24px.svg" alt="shopping cart icon"></a></li>
-                    <li><a href ="#"><img src="/Assets/Symbol 9 – 1.svg" alt="account icon"></a></li>
+                    <li><a href ="#"><img src="./Assets/Search.svg" alt="search icon"></a></li>
+                    <li><a href ="#"><img src="./Assets/shopping.svg" alt="shopping cart icon"></a></li>
+                    <li><a href ="#"><img src="./Assets/account.svg" alt="account icon"></a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
-    <section id="showcase">
-        <div class="container">
-            <a href="#"><img src="/Assets/apartment-architecture-carpet-chair-276583.png" alt="sofa img"></a>
-            <h2>New styles arriving every day.</h2>
-            <h3><u>SHOP NEW DEALS</u></h3>
+    <section class="container" id="showcase">
+        <a href="#"><img id="heroImg" src="./Assets/blackCouch/blackCouch.png" alt="showcaseImg">
+        <h2>New styles arriving every day.</h2>
+        <h3><u>SHOP NEW DEALS</u></h3>
+        <a href="#"><img class="slideshowArrow" id="leftArrow"src="./Assets/arrowLeft.svg"alt="left arrow"></a>
+        <a href="#"><img class="slideshowArrow" id="rightArrow"src="./Assets/arrowRight.svg"alt="right arrow"></a>
+    </section>
+    <section class="container" id="ourFavs">
+        <h1>Our Favorites</h1>
+        <div class="1xShowGrid">
+            <a href="#"><img id="leftArrow" src="./Assets/arrowLeft.svg" alt="left arrow"></a>
+            <a href="#"><img id="rightArrow" src="./Assets/arrowRight.svg" alt="right arrow"></a>
+            <a href="#">
+                <div id="g1">
+                    <img id="g1Img" src="./Assets/glassTable/Image 1.png" alt="1st Image">
+                    <h3></h3>
+                </div>
+            </a>
+            <div id="g2">
+                
+            </div>
+            <div id="g3">
+                
+            </div>
+            <div id="g4">
+                
+            </div>
         </div>
     </section>
 </body>
