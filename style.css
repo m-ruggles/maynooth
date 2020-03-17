@@ -6,6 +6,7 @@ body {
 }
 .container {
 	width: 80%;
+	height: 565px;
 	margin: auto;
 	padding: 0;
 	overflow: auto;
@@ -33,21 +34,25 @@ nav {
 	margin: 0;
 	padding: 0;
 }
+.rightNav {
+	position: absolute;
+	right: 10%;
+	top: 10px;
+}
 .leftNav ul {
 	margin-left: 9%;
 	padding: 0;
 }
-.rightNav ul {
+/* .rightNav ul {
 	margin-right: 9%;
 	padding: 0;
-}
+} */
 .leftNav li {
 	float: left;
 	display: inline;
 	padding: 15px 20px 0 20px;
 }
 .rightNav li {
-	float: right;
 	display: inline;
 	padding: 15px 20px 0 20px;
 }
